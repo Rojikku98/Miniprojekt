@@ -1,0 +1,91 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+table{
+	height: 90%;
+	width: 100%;
+	padding: 0px;
+	margin-top: 5%;
+}
+td{
+	width: 50%;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+tr{
+	padding: 0px;
+	margin: 0px;
+}
+
+header{
+	height: 10%;
+	font-size: 3em;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+.html{
+	background-color: rgb(0,56,111);
+	width: 50%;
+	height: 90%;
+}
+.css{
+	background-color: rgb(133,207,36);
+	width: 50%;
+	height: 90%;
+}
+.orginal{
+	width: 148px;
+	height: 156px;
+}
+.intro{
+	padding: 1.5%;
+	font-size: 1.2em;
+}
+.bild{
+	margin-left: 30%;
+}
+.list{
+	margin-top: 0px;
+	list-style: none;
+}
+
+li{
+	background-color: #B8B8B8;
+	padding: 1%;
+}
+.iframe{
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 10%;
+	width: 75%;
+	height: 700px;
+	border-style: none;
+	border-width: 0px;
+	padding-top: 1em;
+	border: ;
+	overflow: hidden;
+	float: right;
+}
+#css_nav{
+	margin-top: 10%;
+	font-size: 1.2em;
+	width: 9em;
+	height: 30%;
+	position: ;
+	padding-top: 1em;
+	margin-left: 0px;
+	overflow: hidden;
+	padding: 0px;
+	text-align: center;
+}
+article{
+	padding: 3em;
+
+}
+.ex{
+	background-color: rgb(200,200,200);
+
+}
