@@ -3,20 +3,7 @@
 	<title>css</title>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="../css.css">	
-	<script src="jquery-1.11.3.min.js">
 
-	function ResizeIframeFromParent(id) {
-    if (jQuery('#'+id).length > 0) {
-        var window = document.getElementById(id).contentWindow;
-        var prevheight = jQuery('#'+id).attr('height');
-        var newheight = Math.max( window.document.body.scrollHeight, window.document.body.offsetHeight, window.document.documentElement.clientHeight, window.document.documentElement.scrollHeight, window.document.documentElement.offsetHeight );
-        if (newheight != prevheight && newheight > 0) {
-            jQuery('#'+id).attr('height', newheight);
-            console.log("Adjusting iframe height for "+id+": " +prevheight+"px => "+newheight+"px");
-        }
-    }
-}
-	</script>
 </head>
 <body>
 	<header>CSS</header>
@@ -28,17 +15,14 @@
 			<li><a target="css" href="syntax.html">syntax</a></li>
 			<li><a target="css" href="Backrund.html">Backrund</a></li>
 			<li><a target="css" href="Text.html">Text</a></li>
-			<li><a target="css" href="Table/List.html">Table/List</a></li>
+			<li><a target="css" href="Tablelist.html">Table/List</a></li>
 			<li><a target="css" href="Border.html">Border</a></li>
 			<li><a target="css" href="Position.html">Position</a></li>
 			<li><a target="css" href="Links.html">Links</a></li>
 			<li><a target="css" href="Media.html">Media</a></li>
-			<li><a target="css" href="IMG.htlm">IMG</a></li>
-			<li><a href="../html/htmlmeny">Till HTML</a></li>
+			<li><a target="css" href="IMG.html">IMG</a></li>
+			<li><a href="../index.html">Till Hem</a></li>
 		</ul>
-	</nav>
-
-	
-		
+	</nav>		
 </body>
 </html>

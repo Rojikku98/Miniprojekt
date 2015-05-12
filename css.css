@@ -90,3 +90,22 @@ article{
 	background-color: rgb(200,200,200);
 
 }
+
+.ex {
+	font-style: 16px;
+    height: 1.1em;
+    width: 4em;
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+    overflow: hidden;
+
+}
+
+.ex:hover {
+	height: 8em;
+    width: 16em;
+    overflow: hidden;
+}
+.ex_R{
+	text-align: center;
+}
